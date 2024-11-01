@@ -1,0 +1,179 @@
+.afcfbb li{
+	style:cicle;
+	margin-left:12px;
+}
+.afcfbb ol {
+    list-style-type: circle;
+}
+.afcfbb pre {
+    margin-left:25px;
+}
+.afcfbb pre b, .afcfbb b{
+	color: #558ED5;
+}
+
+
+700.col_sel{
+	margin-left: 1em;	
+}
+.bbrList{
+	list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+	margin-left:50px;
+	
+}
+.bbrSubList{
+	list-style-image: none;
+    list-style-position: outside;
+    list-style-type: circle;
+	margin-left:50px;
+	
+}
+.bbrList li{
+	margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.bbr-table{
+	display:table;	
+}
+.bbr-table td {
+    font-size: 11px;
+    line-height: 12px;
+    margin-bottom: 9px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+}
+
+
+.ui-tabs-panel input[type="text"].color{
+	/*width: 56px;*/
+	
+}
+.ui-tabs-panel input[type="text"].regular-text{
+	/*width: 56px;*/
+	
+}
+
+
+
+
+
+.ui-tabs-nav li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.ui-tabs-nav li a {
+	background: #e5e5e5;
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#d8d8d8), to(#e5e5e5));
+	color: #555;
+	display: block;
+	float: left;
+	margin: 0 5px 10px 0;
+	padding: 5px 10px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+
+	box-shadow: 0 1px 2px #bbb;
+	-moz-box-shadow: 0 1px 2px #bbb;
+	-webkit-box-shadow: 0 1px 2px #bbb;
+}
+
+.ui-tabs-nav li a:hover {
+	background: #d54e21;
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#b52e01), to(#d54e21));
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+
+	box-shadow: 0 1px 2px #666;
+	-moz-box-shadow: 0 1px 2px #666;
+	-webkit-box-shadow: 0 1px 2px #666;
+}
+
+.ui-tabs-nav .ui-tabs-selected a {
+	background: #fff;
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#f5f5f5), to(#fff));
+	color: #21759b;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.ui-tabs-nav .ui-tabs-selected a:hover {
+	background: #555;
+	background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#21759b), to(#4195bb));
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.ui-tabs-panel {
+	background: #fff;
+	clear: both;
+	padding: 20px;
+	width: 850px;
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+
+	box-shadow: 0 1px 5px #ccc;
+	-moz-box-shadow: 0 1px 5px #ccc;
+	-webkit-box-shadow: 0 1px 5px #ccc;
+}
+
+.ui-tabs-panel h3 {
+	font: italic normal normal 24px/29px Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;
+	margin-top: 0;
+}
+
+.ui-tabs-panel h4 {
+	border-top: 1px solid #ddd;
+	font-size: 14px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+.ui-tabs-panel input[type=password],
+.ui-tabs-panel input[type=text] {
+	width: 400px;
+}
+
+.ui-tabs-panel textarea {
+	font-size: 12px;
+	height: 150px;
+	width: 400px;
+}
+
+.ui-tabs-panel textarea.code {
+	font: 12px/18px Consolas, Monaco, Courier, monospace;
+}
+
+.ui-tabs-panel th label {
+	font-size: 0.9em;
+}
+
+.wrap h2 {
+	margin-bottom: 20px;
+}
+
+/* The following is to prevent the initial "flash" of unstyled content on page load. */
+
+.ui-tabs {
+	min-height: 150px;
+}
+
+.wrap h3,
+.wrap table {
+	/*display: none;*/
+}
